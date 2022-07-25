@@ -1,7 +1,7 @@
 # Employee-Salary-Predictor
 It is a end-end Capstone-project that predicts the Salary of the employee based on the external factors
 
-##Objective
+## Objective:
 To Build a End-End Machine Learning Model that predicts the Salary of the Employees in the company based on the External factors like
 
 1. Job Type ----- The Type of the Job that the Employee does
@@ -11,9 +11,9 @@ To Build a End-End Machine Learning Model that predicts the Salary of the Employ
 5. YearsExperience ------ The Number of years of experience of the employees (Ranges from 0 to 25 years).
 6. MilesFromMetropolis ----- The Distance of residence of the employee from the Metropolitan city.
 
-##Web Application
+## Web Application:
 
 
 
-##Conclusion
+## Conclusion:
 Among Different classification models like Decision Tree Regressor, Random Forest Regressor, XGBoost Regressor, Gradient Boosting Regressor we selected Random Forest Regressor to be the best fit for the dataset.
