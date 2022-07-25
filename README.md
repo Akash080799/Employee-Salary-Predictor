@@ -13,9 +13,12 @@ To Build a End-End Machine Learning Model that predicts the Salary of the Employ
 
 ## Web Application:
 1. Initial Screen after loading:
+
 ![WebPage](https://user-images.githubusercontent.com/97951338/180864217-bd9accff-d735-4854-9310-031f912acc2d.png)
 
 2. After Predicting the Results:
+
+![WebPage_withresult](https://user-images.githubusercontent.com/97951338/180864696-949deea7-7e76-409c-b8fc-2e5147ff931d.png)
 
 
 
