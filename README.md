@@ -12,6 +12,10 @@ To Build a End-End Machine Learning Model that predicts the Salary of the Employ
 6. MilesFromMetropolis ----- The Distance of residence of the employee from the Metropolitan city.
 
 ## Web Application:
+1. Initial Screen after loading:
+![WebPage](https://user-images.githubusercontent.com/97951338/180864217-bd9accff-d735-4854-9310-031f912acc2d.png)
+
+2. After Predicting the Results:
 
 
 
