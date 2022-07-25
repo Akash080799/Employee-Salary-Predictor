@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Employee Salary Predictor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body style="background-color: whitesmoke;" class="site-wrapper">
+        <div class="container">
+        <h2 style = "text-align: center; color: black; background-color: darksalmon;" class="card-header">EMPLOYEE SALARY PREDICTOR</h2>
+        <br>
+        <br>
+        <form style="border: thin ;" method="POST" action={{url_for('prediction')}}>
+            <table style="width: 300px; margin-left: auto; margin-right: auto;">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Job Type : </td>
+                    <td>
+                        <select name = 'jobType' style="display: inline-block;">
+                            <option value = "CFO">CFO</option>
+                            <option value = "CEO">CEO</option>
+                            <option value = "VICE_PRESIDENT">VICE PRESIDENT</option>
+                            <option value = "MANAGER">MANAGER</option>
+                            <option value = "JUNIOR">JUNIOR</option>
+                            <option value = "JANITOR">JANITOR</option>
+                            <option value = "CTO">CTO</option>
+                            <option value = "SENIOR">SENIOR</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Degree :</td>
+                    <td>
+                        <select name = 'degree'>
+                            <option value = "MASTERS">MASTERS</option>
+                            <option value = "HIGHER_SCHOOL">HIGHER_SCHOOL</option>
+                            <option value = "DOCTORAL">DOCTORAL</option>
+                            <option value = "BACHELORS">BACHELORS</option>
+                            <option value = "NONE">NONE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Major :</td>
+                    <td>
+                        <select name = 'major'>
+                            <option value = "BIOLOGY">BIOLOGY</option>
+                            <option value = "BUSINESS">BUSINESS</option>
+                            <option value = "CHEMISTRY">CHEMISTRY</option>
+                            <option value = "COMPSCI">COMPSCI</option>
+                            <option value = "ENGINEERING">ENGINEERING</option>
+                            <option value = "LITERATURE">LITERATURE</option>
+                            <option value = "MATH">MATH</option>
+                            <option value = "PHYSICS">PHYSICS</option>
+                            <option value = "NONE">NONE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Industry :</td>
+                    <td>
+                        <select name = 'industry'>
+                            <option value = "HEALTH">HEALTH</option>
+                            <option value = "WEB">WEB</option>
+                            <option value = "AUTO">AUTO</option>
+                            <option value = "FINANCE">FINANCE</option>
+                            <option value = "EDUCATION">EDUCATION</option>
+                            <option value = "OIL">OIL</option>
+                            <option value = "SERVICE">SERVICE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Experience :</td>
+                    <td><input type="number" name = "yearsExperience" placeholder="Enter your Years of Experience" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Miles From City:</td>
+                    <td><input type="number" name = "milesFromMetropolis" placeholder="Enter your Distance From Metropolis (within 100 miles range only)" required></td>
+                </tr>
+                <br>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td></td>
+                    <td></td>                    
+                    <td></td>                    
+                    <td><button class="btn btn-warning" style="font-weight: bold;">Submit</button></td>                    
+                </tr>
+        </table>
+    </form>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center;">
+        <span style="font-weight: bolder;">{{result_text}}</span>
+    </div>
+    <br>
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
