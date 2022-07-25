@@ -9,7 +9,7 @@ To Build a End-End Machine Learning Model that predicts the Salary of the Employ
 3. Major ------ The Major subject in which the employee got his latest degree
 4. Industry ----- The Industry in which the current employee works
 5. YearsExperience ------ The Number of years of experience of the employees (Ranges from 0 to 25 years).
-6. MilesFromMetropolis ----- The Distance of residence of the employee from the Metropolitan city.
+6. MilesFromMetropolis ----- The Distance of residence of the employee from the Metropolitan city (Ranges from 0 to 100 miles).
 
 ## Web Application:
 1. Initial Screen after loading:
